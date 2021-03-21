@@ -55,7 +55,7 @@ const (
 
 	// readMessageTimeout is the timeout used when reading a message from a
 	// peer.
-	readMessageTimeout = 5 * time.Second
+	readMessageTimeout = 10 * time.Second
 
 	// handshakeTimeout is the timeout used when waiting for the peer's init
 	// message.
