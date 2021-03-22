@@ -51,11 +51,11 @@ const (
 
 	// writeMessageTimeout is the timeout used when writing a message to the
 	// peer.
-	writeMessageTimeout = 5 * time.Second
+	writeMessageTimeout = 100 * time.Second
 
 	// readMessageTimeout is the timeout used when reading a message from a
 	// peer.
-	readMessageTimeout = 10 * time.Second
+	readMessageTimeout = 100 * time.Second
 
 	// handshakeTimeout is the timeout used when waiting for the peer's init
 	// message.
